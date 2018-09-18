@@ -31,7 +31,7 @@ public class Projects {
     private String projectRole;
     private String projectExp;
 
-    @NonNull //用于属性的无参检查，默认生成一个有参的构造函数
+    @NonNull //用于属性的非空检查，默认生成一个有参的构造函数
     @ApiModelProperty(value="项目名称")
     private String projectName;
 }
