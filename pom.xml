@@ -18,6 +18,7 @@
 
     <modules>
         <module>demo</module>
+        <module>demo2</module>
     </modules>
     <!-- Add typical dependencies for a web application -->
     <dependencies>

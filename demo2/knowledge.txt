@@ -1,0 +1,4 @@
+知识点6：
+@Profile
+
+配置文件application-{profile}.properties，然后在application.properties中配置spring.profiles.active=b启用。
