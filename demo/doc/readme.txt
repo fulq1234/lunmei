@@ -32,3 +32,4 @@
         @ApiOperation------Controller的方法上面
         @ApiModel----------实体类上面
         @ApiModelProperty--实体类的方法上面
+     3.完成上述代码添加上，启动Spring Boot程序，访问：http://localhost:8080/swagger-ui.html
