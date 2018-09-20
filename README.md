@@ -15,6 +15,16 @@
          <groupId>org.projectlombok</groupId>
          <artifactId>lombok</artifactId>
     </dependency>
+3.在entity类上面写@Data，类里面只要有“属性”就可以了，不需要有getter/setter方法。查看发布代码(在target文件夹下面查看)，发现实体类中已经有了属性的getter,setter等方法。
+    
+4.@NotNull，用于属性的非空检查，可以查看发布代码(在target文件夹下面查看)
+    
+5.@JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone="GMT+8"),后台传到前台，时间格式的转换。
+    
+6.@Slf4j, 插入日志，程序中可以用log.info("")，等等操作
+
+7.@JsonProperty,在实体类的属性上备注@JsonProperty(value = "CallbackCommand"),输出的Json格式属性名称就是value的值。
+
 
 **技术点2:swagger**
 
@@ -96,4 +106,6 @@ Actuator主要暴露的功能如下,都是Get方法：
     /trace      |   查看基本追踪信息，默认为最新的一些HTTP请求。
 
 
+知识点6：学习spring cloud server
 
+hlhlo-cloud-api-
