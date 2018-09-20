@@ -25,7 +25,6 @@
 
 7.@JsonProperty,在实体类的属性上备注@JsonProperty(value = "CallbackCommand"),输出的Json格式属性名称就是value的值。
 
-
 **技术点2:swagger**
 
 项目：demo
