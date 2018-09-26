@@ -1,6 +1,7 @@
 package com.lunmei.lombok.demo.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -19,6 +20,7 @@ public class Projects {
     private Long id;
     private Long resumeId;
 
+    @JsonProperty(value="开始时间")
     @NonNull
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone="GMT+8")//后台传到前台格式的转换。@JsonFormat会让时间以0区时间显示。如果直接使用会少了8小时（我所在的是北京时区）修改为
     @ApiModelProperty(value="开始时间")
