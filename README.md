@@ -62,7 +62,9 @@
 
 使用方法：配置文件application-{profile}.properties，然后在application.properties中配置spring.profiles.active=b启用。
 
-
+**知识点4. thymeleaf**
+项目：thymeleaf-demo
+使用教程：
 
 
 
