@@ -39,6 +39,11 @@
 <li>th:include ：保留自己的主标签，不要th:fragment的主标签。（官方3.0后不推荐）</li>
 <div th:include="~{b :: copy}" style="border: 5px solid chartreuse;float:left;width:100%" />
 
+<h1>七.Thymeleaf简单格式化输出</h1>
+时间：
+<dd th:text="${#dates.format(last.createTime, 'yyyy-MM-dd')}"></dd><!--格式化时间-->
+<br/>id:
+<dd th:text="${#numbers.formatDecimal(last.id, 5, 3)}">350</dd><!--第一参数5是整数部分，如果整数部分不满五位，会用0补齐；第二个参数3是小数部分位数，小数点后面保留两位。-->
 
 </body>
 

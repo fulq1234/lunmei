@@ -64,7 +64,9 @@
 
 **知识点4. thymeleaf**
 项目：thymeleaf-demo
-使用教程：
+使用教程：https://blog.csdn.net/fulq1234/article/details/82907488
+
+
 
 
 
