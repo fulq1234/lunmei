@@ -19,6 +19,8 @@
     <modules>
         <module>demo</module>
         <module>demo2</module>
+        <module>hlhlo-cloud-api-wxapp</module>
+        <module>thymeleaf-demo</module>
     </modules>
     <!-- Add typical dependencies for a web application -->
     <dependencies>

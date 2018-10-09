@@ -1,0 +1,12 @@
+<button 
+    wx:if="{{canIUse}}" 
+    open-type="getUserInfo" 
+    bindgetuserinfo="bindGetUserInfo"
+>授权登录</button>
+<view wx:else>请升级微信版本</view>
+<form bindsubmit='formSubmit' report-submit='true' >  
+  <view class="btn-area">
+    <button formType="submit">提交</button>
+    <button formType="reset">重置</button>
+  </view>
+</form>

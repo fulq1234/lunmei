@@ -66,7 +66,10 @@
 项目：thymeleaf-demo
 使用教程：https://blog.csdn.net/fulq1234/article/details/82907488
 
-
+**知识点5.小程序模板发送**
+项目hlhlo-cloud-api-wxapp
+小程序前台是doc下面的min-program项目
+使用教程：
 
 
 
