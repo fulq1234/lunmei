@@ -1,0 +1,6 @@
+server:
+  port: 8082
+WX: #微信小程序常量
+  APPID: wxe3122628b16b4386
+  APPSECRET: cc6957d8ae28da8ead9e44f53ac3b614
+
