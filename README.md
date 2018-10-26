@@ -71,6 +71,11 @@
 小程序前台是doc下面的min-program项目
 使用教程：
 
+**知识点6.oauth2**
+项目：cjs-oauth2-code-server
+使用知识点链接：http://www.cnblogs.com/cjsblog/p/9230990.html
+
+
 
 
 知识点1:
