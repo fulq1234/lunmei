@@ -75,7 +75,15 @@
 项目：cjs-oauth2-code-server
 使用知识点链接：http://www.cnblogs.com/cjsblog/p/9230990.html
 
-
+**知识点7.微信公众号客服消息**
+项目：hlhlo-cloud-framework-wx
+参考网页：
+1.消息管理>客服消息
+https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140547
+2.微信公众平台接口测试账号
+https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
+3.获取AccessToken
+https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxec40750a90b478e5&secret=87eb940de1cd6a9f02258162b2ccf80d
 
 
 知识点1:
