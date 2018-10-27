@@ -34,7 +34,7 @@ public class TestTestController {
         }
 
         account.setAccessToken(atResponse.getAccessToken());
-        BaseResponse response = kf.addKfaccount(account);
+        BaseResponse response = kf.addAccount(account);
         return response;
     }
 
@@ -55,7 +55,7 @@ public class TestTestController {
     @ResponseBody
     public KFList getkflist(){
         BaseAccessTokenResponse atResponse = kf.getAccessToken(appId,appSecret);
-        KFList response = kf.getKFList(atResponse.getAccessToken());
+        KFList response = kf.getList(atResponse.getAccessToken());
         return response;
     }
 }
