@@ -1,9 +1,11 @@
 package com.hlhlo.hlhlocloudframeworkwx.controller;
 
 import com.hlhlo.hlhlocloudframeworkwx.entity.KFScanResponse;
+import com.hlhlo.hlhlocloudframeworkwx.entity.KFScanTransInfo;
 import com.hlhlo.hlhlocloudframeworkwx.entity.ScanRequest;
-import com.hlhlo.hlhlocloudframeworkwx.entity.TextScanResponse;
 import com.hlhlo.hlhlocloudframeworkwx.utils.CheckUtil;
+import com.thoughtworks.xstream.XStream;
+import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -36,12 +38,40 @@ public class WechatController {
 
 
     /**
-     * 消息回复
-     * @param scan
-     * @return
+     * 消息转发到客服
      */
     @PostMapping(value = "/verifyWX")
-   /* public @ResponseBody TextScanResponse weixinCreate(@RequestBody ScanRequest scan) {
+   public @ResponseBody String  weixinCreate(@RequestBody ScanRequest scan) {
+        //public @ResponseBody Object weixinCreate(Scan scan) {
+        if(scan == null) {
+            log.error("接收到的字符串不能为空");
+            return null;
+        }
+        log.info(scan.toString());
+
+        String fromUserName = scan.getFromUserName();
+        String toUserName = scan.getToUserName();
+        KFScanResponse nscan = new KFScanResponse();
+        nscan.setFromUserName(toUserName);
+        nscan.setToUserName(fromUserName);
+        nscan.setCreateTime(new java.util.Date().getTime());
+
+        KFScanTransInfo info = new KFScanTransInfo();
+        info.setKfAccount("ddd");
+        nscan.setTransInfo(info);
+        XStream xStream = new XStream();
+        xStream.alias("xml",nscan.getClass());;
+
+        return xStream.toXML(nscan);
+    }
+
+    /**
+     * 消息回复,测试使用
+     * @param scan
+     * @return
+     *//*
+    @PostMapping(value = "/verifyWX")
+    public @ResponseBody String weixinCreate(@RequestBody ScanRequest scan) {
         //public @ResponseBody Object weixinCreate(Scan scan) {
         if(scan == null) {
             log.error("接收到的字符串不能为空");
@@ -57,28 +87,38 @@ public class WechatController {
         nscan.setCreateTime(new java.util.Date().getTime());
         nscan.setContent(scan.getContent());
 
-        return nscan;
-    }*/
+        XStream xStream = new XStream();
+        xStream.alias("xml",nscan.getClass());;
 
-    /**
-     * 消息转发到客服
-     */
-    public @ResponseBody KFScanResponse weixinCreate(@RequestBody ScanRequest scan) {
-        //public @ResponseBody Object weixinCreate(Scan scan) {
-        if(scan == null) {
-            log.error("接收到的字符串不能为空");
-            return null;
-        }
-        log.info(scan.toString());
-
-        String fromUserName = scan.getFromUserName();
-        String toUserName = scan.getToUserName();
-        KFScanResponse nscan = new KFScanResponse();
-        nscan.setFromUserName(toUserName);
-        nscan.setToUserName(fromUserName);
-        nscan.setCreateTime(new java.util.Date().getTime());
-        return nscan;
+        return xStream.toXML(nscan);
     }
 
+    *//**
+     * 文本回复消息
+     *//*
+    @Data
+    class TextScanResponse {
+        private Integer id;
+
+        //接收方帐号（收到的OpenID）
+        //@XmlElement(name="ToUserName")
+        private String ToUserName;
+
+
+        //开发者微信号
+        //@XmlElement(name="FromUserName")
+        private String FromUserName;
+
+        //消息创建时间 （整型）
+        //@XmlElement(name="CreateTime")
+        private Long CreateTime;
+
+        //@XmlElement(name="MsgType")
+        private String MsgType = "text";
+
+        //@XmlElement(name="Content")
+        private String Content;
+
+    }*/
 
 }

@@ -15,8 +15,3 @@ public class KFSessionList extends BaseResponse{
     private List<KFSessionInfo> param;
 }
 
-@Data
-class KFSessionInfo{
-    private Long createtime;
-    private String openid;
-}

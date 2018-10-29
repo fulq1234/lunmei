@@ -1,4 +1,4 @@
-package com.hlhlo.hlhlocloudframeworkwx.entity;
+package com.hlhlo.hlhlocloudframeworkwx.enums;
 
 /**
  * 消息类型
