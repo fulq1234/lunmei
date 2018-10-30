@@ -51,6 +51,8 @@ public class WechatController {
 
         String fromUserName = scan.getFromUserName();
         String toUserName = scan.getToUserName();
+        System.out.println(fromUserName);
+        System.out.println(toUserName);
         KFScanResponse nscan = new KFScanResponse();
         nscan.setFromUserName(toUserName);
         nscan.setToUserName(fromUserName);

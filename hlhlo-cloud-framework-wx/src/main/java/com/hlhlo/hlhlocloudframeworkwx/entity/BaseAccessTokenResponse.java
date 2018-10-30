@@ -2,8 +2,10 @@ package com.hlhlo.hlhlocloudframeworkwx.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 @Data
+@EqualsAndHashCode(callSuper = true)
 public class BaseAccessTokenResponse extends BaseResponse {
 
     //获取到的凭证

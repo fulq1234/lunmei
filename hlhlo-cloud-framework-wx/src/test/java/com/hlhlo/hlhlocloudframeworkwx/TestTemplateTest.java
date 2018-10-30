@@ -14,7 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class TestTemplateTest {
     private String appId = "wxec40750a90b478e5";
     private String appSecret = "87eb940de1cd6a9f02258162b2ccf80d";
-    private String accessToken = "15_M_WUwHYflPsKY3G22ft9Z-vMDYMT6X387l-Z6E2jMExHQTaHlhZIXmee6G7fwYzQNgkmoLYShcrmebFnZqtGuDMZS0mB8wmSsq3zALmFEg7SLw5rlmgreiMf3FqwQHKzDEXlF-pJQe_17NgYQOOdAAABZZ";
+    private String accessToken = "15_NUKJkr7RKNOhIpDJKGETpj3Jego7IxEsQ6JeDAeKXSMnFrUthXREoivkLM1QSY8wQI59CG9CwqKQ3_O4KFjKx6zL_-fufX2mXK38QAKrO-ULfpPhbfu50C8ZZqMKGWhAGAZVL";
     @Autowired
     private WxKFService kf;
 
@@ -31,10 +31,31 @@ public class TestTemplateTest {
         System.out.println(object.toString());
     }
 
+    /**
+     * 获取设置的行业信息
+     */
+    @Test
+    public void testgetIndustry(){
+        WxTGetRes a = wxTemplateService.getIndustry(this.accessToken);
+        System.out.println(a.toString());
+    }
+
+    //获得模板ID
+    @Test
+    public void testapiAddTemplate(){
+        WxTApiAddReq req = new WxTApiAddReq();
+        req.setTemplateIdShort("TM00015");
+        WxTRes a = wxTemplateService.apiAddTemplate(this.accessToken,req);
+        System.out.println(a.getClass());
+    }
+    /**
+     * o36WF0kwKQEOq9-l9bqAiM5Nqlf8
+     * gh_5c56f02a0097
+     */
     @Test
     public void sendT(){
         WxTSendReq req = new WxTSendReq();
-        String openid = "ddd";
+        String openid = "o36WF0kwKQEOq9-l9bqAiM5Nqlf8";
         req.setTemplate_id("is9PoJNLvYHKLVsRx2ilWYEpbU3oSVmvaX0FtHyAtvM");
         req.setTouser(openid);
         req.setUrl("http://www.baidu.com");

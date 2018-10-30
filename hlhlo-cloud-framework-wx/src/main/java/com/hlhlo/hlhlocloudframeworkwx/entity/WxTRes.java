@@ -2,11 +2,13 @@ package com.hlhlo.hlhlocloudframeworkwx.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * 模板信息
  */
 @Data
+@EqualsAndHashCode(callSuper = true)
 public class WxTRes extends BaseResponse {
 
     //模板ID
