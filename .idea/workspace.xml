@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f708002-1dd8-40f1-ac4e-353b0ff05dee" name="Default Changelist" comment="去掉多余的">
+      <change beforePath="$PROJECT_DIR$/cjs-oauth2-code-server/src/main/java/com/cjs/example/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cjs-oauth2-code-server/src/main/java/com/cjs/example/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/HlhloCloudFrameworkWxApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/config/HttpClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/controller/WechatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/BaseAccessTokenResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/BaseResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFAccountRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFAccountResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgBaseInfoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgBaseRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgImageRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgInfoResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgListRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgListResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgMediaRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgMiniprogrampageInfoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgMiniprogrampageRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgMpNewsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgMusicInfoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgMusicRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgNews2Request.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgNewsInfoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgNewsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgTextInfoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgTextRequest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgVideoInfoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgVideoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgVoiceRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgWxcardInfoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgWxcardRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFOnlineList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFScanResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFScanTransInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFSessionInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFSessionList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFTypingRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFWaitCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFWaitCaseInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/ScanRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTApiAddReq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTGetRes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTIndustryInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTKeyWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTRes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTSendDataReq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTSendReq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTSendRes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTSetReq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/enums/MsgTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/service/WxKFService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/service/WxTService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/service/impl/WxKFServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/service/impl/WxTServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/utils/CheckUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/utils/HttpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/utils/JsonUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/test/java/com/hlhlo/hlhlocloudframeworkwx/TestTemplateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/test/java/com/hlhlo/hlhlocloudframeworkwx/TestTestController.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/hlhlo-register/target/" />
+    <ignored path="$PROJECT_DIR$/hlho-config/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/demo2/target/" />
+    <ignored path="$PROJECT_DIR$/thymeleaf-demo/target/" />
+    <ignored path="$PROJECT_DIR$/hlhlo-cloud-api-wxapp/target/" />
+    <ignored path="$PROJECT_DIR$/cjs-oauth2-code-server/target/" />
+    <ignored path="$PROJECT_DIR$/wxapp_custom_service/target/" />
+    <ignored path="$PROJECT_DIR$/hlhlo-cloud-framework-wx/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-80883855">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="24" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="5" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="13" />
+          <entry key="html" value="6" />
+          <entry key="java" value="384" />
+          <entry key="js" value="1" />
+          <entry key="md" value="6" />
+          <entry key="pom" value="3" />
+          <entry key="properties" value="17" />
+          <entry key="xml" value="45" />
+          <entry key="yml" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="13" />
+          <entry key="HTML" value="6" />
+          <entry key="JAVA" value="384" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Markdown" value="6" />
+          <entry key="Properties" value="17" />
+          <entry key="XML" value="48" />
+          <entry key="YAML" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="106" />
+          <entry key="html" value="1174" />
+          <entry key="java" value="11111" />
+          <entry key="md" value="235" />
+          <entry key="properties" value="341" />
+          <entry key="txt" value="118" />
+          <entry key="xml" value="232" />
+          <entry key="yml" value="239" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1174" />
+          <entry key="JAVA" value="11111" />
+          <entry key="Markdown" value="235" />
+          <entry key="PLAIN_TEXT" value="224" />
+          <entry key="Properties" value="341" />
+          <entry key="XML" value="232" />
+          <entry key="YAML" value="239" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cjs-oauth2-code-server/src/main/java/com/cjs/example/config/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>serviceUrl</find>
+      <find>log</find>
+      <find>configure</find>
+      <find>spring-boot-starter-parent</find>
+      <find>KFMsgImageInfoRequest</find>
+      <find>getkflistUrl</find>
+      <find>addKfaccountUrl</find>
+      <find>updateKfaccountUrl</find>
+      <find>uploadHeadImgUrl</find>
+      <find>delKfaccountUrl</find>
+      <find>product_ur</find>
+      <find>kfAccount</find>
+      <find>KFScanTransInfo</find>
+      <find>addAccount</find>
+      <find>BaseAccessTokenResponse</find>
+      <find>uploadHeadImg</find>
+      <find>getAllTList</find>
+      <find>mybatis</find>
+      <find>setFilterChainProxySecurityConfigurer</find>
+      <find>jsoup</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>KFMsgMediaRequest</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/service/impl/WxTemplateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/service/WxTemplateService.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxGetTemplateRes.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTIndustryInfo.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxGetTRes.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTAddTRes.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTAddTReq.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxApiAddTReq.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxApiAddTRes.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTList.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxSendTRes.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxKeyWord.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTKeyWord.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxSendTDataReq.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxSendTReq.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/service/WxTService.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/service/impl/WxTServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-api-wxapp/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/controller/WechatController.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/test/java/com/hlhlo/hlhlocloudframeworkwx/TestTemplateTest.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/BaseResponse.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/BaseAccessTokenResponse.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFAccountRequest.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFList.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgImageRequest.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgListResponse.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgMiniprogrampageRequest.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgMpNewsRequest.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgMusicRequest.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgNewsRequest.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgTextRequest2.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgVideoRequest.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgVoiceRequest.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgWxcardRequest.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFOnlineList.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFSessionList.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTRes.java" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTSendRes.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/lunmei/lombok/demo/entity/Resume.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/lunmei/lombok/demo/entity/Projects.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/lunmei/lombok/demo/mapper/ProjectsMapper.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/lunmei/lombok/demo/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/demo/src/test/java/com/lunmei/lombok/demo/DemoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/demo2/pom.xml" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-api-wxapp/pom.xml" />
+        <option value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/pom.xml" />
+        <option value="$PROJECT_DIR$/thymeleaf-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cjs-oauth2-code-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cjs-oauth2-code-server/src/main/java/com/cjs/example/config/WebSecurityConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/tools/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="E:\tools\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="17" />
+    <option name="y" value="10" />
+    <option name="width" value="1797" />
+    <option name="height" value="1078" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Gradle</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Probable bugsGradle</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lunmei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lunmei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lunmei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lunmei" type="462c0819:PsiDirectoryNode" />
+              <item name="cjs-oauth2-code-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lunmei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lunmei" type="462c0819:PsiDirectoryNode" />
+              <item name="cjs-oauth2-code-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lunmei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lunmei" type="462c0819:PsiDirectoryNode" />
+              <item name="cjs-oauth2-code-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lunmei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lunmei" type="462c0819:PsiDirectoryNode" />
+              <item name="cjs-oauth2-code-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lunmei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lunmei" type="462c0819:PsiDirectoryNode" />
+              <item name="cjs-oauth2-code-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lunmei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lunmei" type="462c0819:PsiDirectoryNode" />
+              <item name="cjs-oauth2-code-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541039630641" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hlhlo-single" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hlhlo.hlhlocloudframeworkwx.utils" />
+      <recent name="com.hlhlo.hlhlocloudframeworkwx.enums" />
+      <recent name="com.hlhlo.hlhlocloudframeworkwx.service.impl" />
+      <recent name="com.hlhlo.hlhlocloudframeworkwx.service" />
+      <recent name="com.hlhlo.hlhlocloudframeworkwx.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace2\lunmei\hlhlo-cloud-framework-wx\src\main\java\com\hlhlo\hlhlocloudframeworkwx" />
+      <recent name="F:\workspace2\lunmei\hlhlo-cloud-api-wxapp\src\doc" />
+      <recent name="F:\workspace2\lunmei\hlhlo-cloud-api-wxapp\src\main\resources" />
+      <recent name="F:\workspace2\lunmei\thymeleaf-demo\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.16991343" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.CjsOauth2CodeServerApplication (1)">
+    <configuration name="DemoApplicationTests.selectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lunmei.lombok.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lunmei.lombok.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.lunmei.lombok.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="selectTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.testSelectOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lunmei.lombok.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lunmei.lombok.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.lunmei.lombok.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="testSelectOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.testsave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lunmei.lombok.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lunmei.lombok.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.lunmei.lombok.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="testsave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTemplateTest.testapiAddTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hlhlo-cloud-framework-wx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hlhlo.hlhlocloudframeworkwx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hlhlo.hlhlocloudframeworkwx" />
+      <option name="MAIN_CLASS_NAME" value="com.hlhlo.hlhlocloudframeworkwx.TestTemplateTest" />
+      <option name="METHOD_NAME" value="testapiAddTemplate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTemplateTest.testgetIndustry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hlhlo-cloud-framework-wx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hlhlo.hlhlocloudframeworkwx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hlhlo.hlhlocloudframeworkwx" />
+      <option name="MAIN_CLASS_NAME" value="com.hlhlo.hlhlocloudframeworkwx.TestTemplateTest" />
+      <option name="METHOD_NAME" value="testgetIndustry" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CjsOauth2CodeServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cjs-oauth2-code-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjs.example.CjsOauth2CodeServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lunmei.demo2.Demo2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lunmei.lombok.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HlhloCloudFrameworkWxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hlhlo-cloud-framework-wx" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hlhlo.hlhlocloudframeworkwx.HlhloCloudFrameworkWxApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HlhloRegisterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hlhlo-register" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hlhloregister.HlhloRegisterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HlhoConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hlho-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hlhoconfig.HlhoConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThymeleafDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="thymeleaf-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.thymeleafdemo.ThymeleafDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WxAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hlhlo-cloud-api-wxapp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hlhlo.cloud.api.wxapp.WxAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WxappCustomServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wxapp_custom_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hlhlo.cloud.wxapp_custom_service.WxappCustomServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.HlhloRegisterApplication" />
+      <item itemvalue="Spring Boot.HlhoConfigApplication" />
+      <item itemvalue="Spring Boot.Demo2Application" />
+      <item itemvalue="Spring Boot.ThymeleafDemoApplication" />
+      <item itemvalue="Spring Boot.WxappCustomServiceApplication" />
+      <item itemvalue="Spring Boot.HlhloCloudFrameworkWxApplication" />
+      <item itemvalue="Spring Boot.CjsOauth2CodeServerApplication (1)" />
+      <item itemvalue="Spring Boot.WxAppApplication" />
+      <item itemvalue="JUnit.TestTemplateTest.testgetIndustry" />
+      <item itemvalue="JUnit.TestTemplateTest.testapiAddTemplate" />
+      <item itemvalue="JUnit.DemoApplicationTests.testsave" />
+      <item itemvalue="JUnit.DemoApplicationTests.selectTest" />
+      <item itemvalue="JUnit.DemoApplicationTests.testSelectOne" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DemoApplicationTests.testSelectOne" />
+        <item itemvalue="JUnit.DemoApplicationTests.selectTest" />
+        <item itemvalue="JUnit.DemoApplicationTests.testsave" />
+        <item itemvalue="JUnit.TestTemplateTest.testapiAddTemplate" />
+        <item itemvalue="JUnit.TestTemplateTest.testgetIndustry" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f708002-1dd8-40f1-ac4e-353b0ff05dee" name="Default Changelist" comment="" />
+      <created>1537948786753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537948786753</updated>
+      <workItem from="1537948788153" duration="5800000" />
+      <workItem from="1538009467525" duration="1226000" />
+      <workItem from="1538190646140" duration="1954000" />
+      <workItem from="1538210345936" duration="3831000" />
+      <workItem from="1538268158543" duration="16847000" />
+      <workItem from="1538960142035" duration="996000" />
+      <workItem from="1539051131785" duration="5704000" />
+      <workItem from="1539066140833" duration="1050000" />
+      <workItem from="1539142366664" duration="713000" />
+      <workItem from="1539143103373" duration="1263000" />
+      <workItem from="1539150388873" duration="595000" />
+      <workItem from="1539151015323" duration="1501000" />
+      <workItem from="1539155001524" duration="1839000" />
+      <workItem from="1539216584689" duration="228000" />
+      <workItem from="1539216830136" duration="28000" />
+      <workItem from="1539672347236" duration="1635000" />
+      <workItem from="1539680166370" duration="59000" />
+      <workItem from="1540171700472" duration="621000" />
+      <workItem from="1540192019864" duration="795000" />
+      <workItem from="1540352082890" duration="1887000" />
+      <workItem from="1540358304448" duration="1628000" />
+      <workItem from="1540437713011" duration="660000" />
+      <workItem from="1540457493044" duration="1250000" />
+      <workItem from="1540514300437" duration="29337000" />
+      <workItem from="1540771798498" duration="17735000" />
+      <workItem from="1540858585931" duration="4643000" />
+      <workItem from="1540866849834" duration="8177000" />
+      <workItem from="1540885532370" duration="1696000" />
+      <workItem from="1540888303954" duration="820000" />
+      <workItem from="1540889199737" duration="336000" />
+      <workItem from="1540889617806" duration="2813000" />
+      <workItem from="1540946153986" duration="6897000" />
+      <workItem from="1541033327299" duration="3100000" />
+      <workItem from="1541038490046" duration="606000" />
+    </task>
+    <task id="LOCAL-00001" summary="去掉多余的">
+      <created>1537948988527</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537948988527</updated>
+    </task>
+    <task id="LOCAL-00002" summary="thymeleaf-demo学习">
+      <created>1538278776663</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538278776663</updated>
+    </task>
+    <task id="LOCAL-00003" summary="thymeleaf">
+      <created>1538278852881</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538278852881</updated>
+    </task>
+    <task id="LOCAL-00004" summary="thymeleaf">
+      <created>1538279020567</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1538279020567</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Thymeleaf简单格式化输出">
+      <created>1538295944707</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1538295944707</updated>
+    </task>
+    <task id="LOCAL-00006" summary="微信小程序模板信息开发接口开发">
+      <created>1539054742367</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539054742367</updated>
+    </task>
+    <task id="LOCAL-00007" summary="小程序模板消息操作">
+      <created>1539054791729</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1539054791729</updated>
+    </task>
+    <task id="LOCAL-00008" summary="change directory">
+      <created>1539154738263</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1539154738263</updated>
+    </task>
+    <task id="LOCAL-00009" summary="微信公众号客服消息">
+      <created>1540547800961</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1540547800961</updated>
+    </task>
+    <task id="LOCAL-00010" summary="注释">
+      <created>1540547967377</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1540547967377</updated>
+    </task>
+    <task id="LOCAL-00011" summary="修改">
+      <created>1540779030714</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1540779030714</updated>
+    </task>
+    <task id="LOCAL-00012" summary="去掉多余的">
+      <created>1540779086556</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1540779086556</updated>
+    </task>
+    <task id="LOCAL-00013" summary="模板">
+      <created>1540807232016</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1540807232016</updated>
+    </task>
+    <task id="LOCAL-00014" summary="微信@EqualsAndHashCode(callSuper = true)">
+      <created>1540867211109</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1540867211109</updated>
+    </task>
+    <task id="LOCAL-00015" summary="sss">
+      <created>1540867275913</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1540867275913</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DemoApplicationTests_selectTest - 2018.10.30 at 12h 34m 26s.xml">
+      <configuration name="DemoApplicationTests.selectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_selectTest - 2018.10.30 at 13h 15m 12s.xml">
+      <configuration name="DemoApplicationTests.selectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_selectTest - 2018.10.30 at 13h 15m 26s.xml">
+      <configuration name="DemoApplicationTests.selectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_selectTest - 2018.10.30 at 13h 16m 42s.xml">
+      <configuration name="DemoApplicationTests.selectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_selectTest - 2018.10.30 at 13h 17m 17s.xml">
+      <configuration name="DemoApplicationTests.selectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_selectTest - 2018.10.30 at 13h 18m 14s.xml">
+      <configuration name="DemoApplicationTests.selectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_testSelectOne - 2018.10.30 at 13h 21m 14s.xml">
+      <configuration name="DemoApplicationTests.testSelectOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_testSelectOne - 2018.10.30 at 13h 22m 31s.xml">
+      <configuration name="DemoApplicationTests.testSelectOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_testSelectOne - 2018.10.30 at 13h 24m 25s.xml">
+      <configuration name="DemoApplicationTests.testSelectOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_testSelectOne - 2018.10.30 at 13h 42m 22s.xml">
+      <configuration name="DemoApplicationTests.testSelectOne" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="128270000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15618336" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3585746" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33073497" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.2895323" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" weight="0.43541202" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.18930958" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.25692964" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22228146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3585746" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33073497" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.2895323" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.43541202" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.37861916" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.19041279" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="thymeleaf-demo学习" />
+    <MESSAGE value="thymeleaf" />
+    <MESSAGE value="Thymeleaf简单格式化输出" />
+    <MESSAGE value="微信小程序模板信息开发接口开发" />
+    <MESSAGE value="小程序模板消息操作" />
+    <MESSAGE value="change directory" />
+    <MESSAGE value="微信公众号客服消息" />
+    <MESSAGE value="注释" />
+    <MESSAGE value="修改" />
+    <MESSAGE value="去掉多余的" />
+    <MESSAGE value="模板" />
+    <MESSAGE value="微信@EqualsAndHashCode(callSuper = true)" />
+    <MESSAGE value="sss" />
+    <option name="LAST_COMMIT_MESSAGE" value="sss" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/thymeleaf-demo/src/main/java/com/example/thymeleafdemo/controller/ThDemo1Controller.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/hlhlo-cloud-api-wxapp/src/main/java/com/hlhlo/cloud/api/wxapp/controller/WxTemplateController.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/hlhlo-cloud-api-wxapp/src/main/java/com/hlhlo/cloud/api/wxapp/controller/WxTemplateController.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/service/impl/WxKFServiceImpl.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/test/java/com/hlhlo/hlhlocloudframeworkwx/TestTestController.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/controller/WechatController.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/test/java/com/hlhlo/hlhlocloudframeworkwx/TestTemplateTest.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com/lunmei/lombok/demo/DemoApplicationTests.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com/lunmei/lombok/demo/DemoApplicationTests.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com/lunmei/lombok/demo/DemoApplicationTests.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgNewsRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgTextInfoRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgTextRequest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgVideoInfoRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgVideoRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgVoiceRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgWxcardInfoRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFMsgWxcardRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFOnlineList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFScanResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFScanTransInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFSessionInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFSessionList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFTypingRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFWaitCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/KFWaitCaseInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/ScanRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTGetRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTIndustryInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTKeyWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTSendDataReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTSendReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTSetReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTSendRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/main/java/com/hlhlo/hlhlocloudframeworkwx/entity/WxTApiAddReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/src/test/java/com/hlhlo/hlhlocloudframeworkwx/TestTemplateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/lunmei/lombok/demo/mapper/ProjectsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/test/java/com/lunmei/lombok/demo/DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/lunmei/lombok/demo/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/lunmei/lombok/demo/entity/Projects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/lunmei/lombok/demo/entity/Resume.java" />
+    <entry file="file://$PROJECT_DIR$/cjs-oauth2-code-server/src/main/java/com/cjs/example/CjsOauth2CodeServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.1/mybatis-spring-boot-starter-1.3.1.pom" />
+    <entry file="file://$PROJECT_DIR$/demo2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-api-wxapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thymeleaf-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger-ui/2.2.2/springfox-swagger-ui-2.2.2.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.2/mybatis-spring-boot-starter-1.3.2.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlhlo-cloud-framework-wx/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cjs-oauth2-code-server/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/cjs-oauth2-code-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.8.RELEASE/spring-security-config-5.0.8.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/EnableWebSecurity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.8.RELEASE/spring-security-config-5.0.8.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.8.RELEASE/spring-security-config-5.0.8.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/EnableWebSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cjs-oauth2-code-server/src/main/java/com/cjs/example/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

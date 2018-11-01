@@ -1,0 +1,14 @@
+com\hlhlo\cloud\api\wxapp\model\WxTemplate.class
+com\hlhlo\cloud\api\wxapp\model\Result.class
+com\hlhlo\cloud\api\wxapp\model\WxTemplateLib.class
+com\hlhlo\cloud\api\wxapp\util\WxInterfaceUtil.class
+com\hlhlo\cloud\api\wxapp\model\WxMessage.class
+com\hlhlo\cloud\api\wxapp\model\WxCode2Session.class
+com\hlhlo\cloud\api\wxapp\controller\WxTemplateController.class
+com\hlhlo\cloud\api\wxapp\model\WxAccessToken.class
+com\hlhlo\cloud\api\wxapp\model\WxTemplateKeyword.class
+com\hlhlo\cloud\api\wxapp\WxAppApplication.class
+com\hlhlo\cloud\api\wxapp\model\WxListBean.class
+com\hlhlo\cloud\api\wxapp\model\WxAddTemplate.class
+com\hlhlo\cloud\api\wxapp\service\impl\WxTemplateMinServiceImpl.class
+com\hlhlo\cloud\api\wxapp\service\WxTemplateMinService.class

@@ -1,0 +1,4 @@
+server:
+  servlet:
+    context-path: /th-demo
+  port: 8081
