@@ -85,6 +85,10 @@ https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
 3.获取AccessToken
 https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxec40750a90b478e5&secret=87eb940de1cd6a9f02258162b2ccf80d
 
+**pic-copy**
+富文本编辑器kindeditor，处理图片，所有在线图片或者base64图片下载都本地。
+访问富文本kindeditor的地址：http://localhost:8080/kindeditor
+修改思路是在文件kindeditor-all.js中方法beforeSetHtml添加方法，处理html，用java的jsoup处理。保存图片到本地，html中img的src指向本地图片。
 
 知识点1:
 maven plugin的插件
