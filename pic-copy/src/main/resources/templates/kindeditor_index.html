@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>kindeditor</title>
+    <head>
+        <meta charset="utf-8" />
+        <title>KindEditor JSP</title>
+        <link rel="stylesheet" th:href="@{/js/kindeditor/themes/default/default.css}" />
+        <link rel="stylesheet" th:href="@{/js/kindeditor/plugins/code/prettify.css}" />
+
+        <script charset="utf-8" th:src="@{/js/jquery-3.3.1.min.js}"></script>
+        <script charset="utf-8" th:src="@{/js/kindeditor/kindeditor-all.js}"></script>
+        <script charset="utf-8" th:src="@{/js/kindeditor/lang/zh-CN.js}"></script>
+        <script charset="utf-8" th:src="@{/js/kindeditor/plugins/code/prettify.js}"></script>
+
+        <script>
+            KindEditor.ready(function(K) {
+                var editor1 = K.create('textarea[name="content1"]', {
+                    cssPath : '[[@{/js/kindeditor/plugins/code/prettify.css}]]',
+                    //uploadJson : '../jsp/upload_json.jsp',
+                    //fileManagerJson : '../jsp/file_manager_json.jsp',
+                    allowFileManager : true,
+                    afterCreate : function() {
+                        var self = this;
+                        K.ctrl(document, 13, function() {
+                            self.sync();
+                            document.forms['example'].submit();
+                        });
+                        K.ctrl(self.edit.doc, 13, function() {
+                            self.sync();
+                            document.forms['example'].submit();
+                        });
+                    }
+                });
+                prettyPrint();
+            });
+        </script>
+    </head>
+<body>
+<form name="example" method="post" action="demo.jsp">
+    <textarea name="content1" cols="100" rows="8" style="width:700px;height:200px;visibility:hidden;"></textarea>
+    <br />
+    <input type="submit" name="button" value="提交内容" /> (提交快捷键: Ctrl + Enter)
+</form>
+
+<!--处理url-->
+<form name="beforeSetH" id="beforeSetH" th:action="@{/ke}" method="post">
+    <input type="hidden" name="htmlStr"/>
+</form>
+</body>
+</html>
+
